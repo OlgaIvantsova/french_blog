@@ -1,0 +1,245 @@
+/*
+*скачать шрифт для сайта
+
+
+*/
+
+.social{
+	float: left;
+}
+.social ul{}
+	
+.social li{
+	display: inline-block;
+}	
+.social li:first-child{
+	margin-right: 4px;
+}	
+.social li:nth-child(2){
+	margin-right: 9px;
+}	
+.social li:nth-child(3){
+	margin-right: 9px;
+}
+.social li:nth-child(4){
+	margin-right: 14px;
+}
+.social li:nth-child(5){
+}
+.social li a{
+	display: block;
+}
+.social a img{
+	vertical-align: top;
+}
+
+
+.time-table, .header-top-caption{
+	float: right;
+	margin-left: 12px;
+}
+.time-table time{
+	font-size: 1.8em;
+	color: #164879;
+}
+.header-top-caption span{
+	font-weight: bold;
+	font-size: 1.4em;
+	vertical-align: -7px;
+	color: #25b2f6;
+}
+.head-middle{
+	margin-top: 18px;
+	margin-bottom: 9px;
+}
+.head-middle-title{
+	float: left;
+}
+.head-middle-recent{
+	float: right;
+}
+.head-middle-title h1{
+	font-size: 4.25em;
+	font-weight: lighter;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+.head-middle-title small{
+	font-size: 1.8em;
+	color: #164879;
+	margin-bottom: 10px;
+}
+
+.header-buttons{
+	position: relative;
+	float: right;
+}
+.header-buttons a{
+	position: relative;
+	float: right;
+}
+.header-buttons a{
+	position: absolute;
+}
+.header-buttons a.catalogue-btn{
+	top: 10px;
+	right: 110px;
+}
+.header-buttons a.gratuites-btn{
+	top: 67px;
+	right: 9px;
+}
+.head-middle-recent{
+	display: table;
+	height: 93px;
+}
+.head-middle-recent h3{
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-size: 2.4em;
+	font-weight: normal;
+	line-height: 20px;
+	color: #25b2f6;
+	padding-right: 17px;
+	border-right: 1px solid #25b2f6;
+}
+.head-middle-recent-articles{
+	display: table-cell;
+	width: 340px;
+	max-width: 340px;
+	list-style-type: none;
+	padding-left: 22px;
+	padding-top: 5px;
+	font-size: 1.6em;
+}
+.head-middle-recent-articles li{
+	line-height: 22px;
+	white-space: pre;
+	overflow: hidden;
+}
+.head-middle-recent-articles a{
+	text-decoration: none;
+	color: #63a815;
+}
+.head-middle-recent-articles a:hover, .head-middle-recent-articles a.active{
+	text-decoration: underline;
+	color: #63a815;
+}
+.head-bottom-line{
+	font-family: 'Calibri';
+	font-weight: normal;
+	background: #25b2f6;
+}
+.head-bottom-line h2{
+	float: left;
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 1.6em;
+	color: #fff;
+	text-transform: uppercase;
+}
+.header-menu{
+	float: right;
+	min-width: 450px;
+}
+.header-menu ul{
+	position: relative;
+	left: 0;
+	list-style-type: none;
+}
+.header-menu li{
+	display: inline-block;
+	background: #25b2f6;
+	line-height: 47px;
+}
+.header-menu li > a{
+	display: block;
+	background: #25b2f6;
+	font-size: 1.6em;
+	vertical-align: bottom;
+	color: inherit;
+	text-decoration: none;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	border-bottom: 7px solid #25b2f6;
+}
+.header-menu li > a:hover, .header-menu li > a.active{
+	border-bottom: 7px solid #86ce01;
+}
+.header-menu.full{
+	float: left;
+	width: 64%;
+}
+.header-menu.full ul{
+	display: table;
+	width: 100%;
+	text-align: justify;
+}
+.header-menu.full li{
+	display: table-cell;
+	text-align: center;
+}
+.header-menu.full li > a{
+	color: #fff;
+}
+.header-menu.full li > a:hover{
+	color: #000;
+}
+.header-searchbar{
+	float: left;
+	width: 36%;
+	padding-right: 10px;
+}
+.searchbar-wrap{
+	width: 100%;
+	position: relative;
+	margin-top: 12px;
+}
+.searchbar-wrap input[type="text"]{
+	width: 100%;
+	height: 26px;
+	padding: 0 45px 0 15px;
+	border: 1px solid #fff;
+	background: #aae1fc;
+}
+.searchbar-wrap input[type="image"]{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 6px 16px;
+}
+.header-thumb{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.header-thumb > img{
+	position: absolute;
+	z-index: -1;
+	min-width: 100%;
+	height: auto;
+	max-height: auto;
+}
+.header-thumb > .login-outwrapper{
+	width: 100%;
+}
+.header-thumb .login{
+	width: 36%;
+	float: right;
+	margin-top: 17px;
+	margin-bottom: 17px;
+	padding: 22px 90px 20px;
+	border-radius: 10px;
+	background: rgba(22,72,121, 0.5);
+	border: 1px solid #fff;
+}
+.header-thumb .login h3{
+	font-family: 'Arial';
+	font-size: 3em;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}

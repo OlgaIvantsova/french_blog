@@ -1,0 +1,20 @@
+/*
+ХЛЕБНЫЕ КРОШКИ
+*/
+.breadcrumbs{
+	margin-top: 10px;
+	font-size: 1.2em;
+	color: #164879;
+}
+.breadcrumbs a{
+	text-decoration: none;
+	color: inherit;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.breadcrumbs a:hover, .breadcrumbs a.active{
+	text-decoration: underline;
+}
+.breadcrumbs span{
+	padding: 0 2px;
+}
